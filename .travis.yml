@@ -1,0 +1,5 @@
+language : java
+sudo : false
+script : " mvn -f Ertuu/pom.xml clean install"
+jdk :
+   - oraclejdk8
